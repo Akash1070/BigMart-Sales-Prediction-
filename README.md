@@ -1,11 +1,10 @@
 
+# **Building A Big Mart Sales Prediction**
+
 ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg)
 ![pyforest](https://img.shields.io/badge/Library-pyforest-red.svg)
 
-• This repository consists of files required to deploy a ___Machine Learning Web App___ created with ___Flask___ on ___Heroku___ platform.
-
-• If you want to view the deployed model, click on the following link:
-https://ipl-score-prediction-app458.herokuapp.com/
+• This repository consists of files required to deploy a ___Machine Learning Model___ created with ___Python___ 
 
 • Please do ⭐ the repository, if it helped you in anyway.
 
@@ -21,24 +20,21 @@ https://ipl-score-prediction-app458.herokuapp.com/
     2. Exploratory Data Analysis(EDA)
     3. Feature Engineering
     4. Model Building and Tuning
-    5. Building Flask API
-    6. Pushing code to Github
-    7. Connecting to your Heroku account 
-    8. Deploy App
-
-
+   
 ## Installation
 
 To install the libraries used in this project. Follow the 
 below steps:
 
 ```bash
-from flask import Flask, render_template, request
-import pickle
-import numpy as np
+!pip install pyforest
+from pyforest import*
+lazy_imports()
+
+from xgboost import XGBRegressor
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.tree import DecisionTreeRegressor
 from sklearn.linear_model import LinearRegression
-import pandas as pd
-import pickle
 
 ```
     
@@ -50,17 +46,6 @@ To run tests, run the following command
   python app.py
 ```
 
-## Running Heroku Tests
-
-To run a Heroku deployment tests, click on the following link:
-
-[IPL First Innings Score Prediction App](https://ipl-score-prediction-app458.herokuapp.com/)
-## Demo
-
-[Click HERE To View App](http://localhost:8501/)
-
-## Preview
-![Click HERE To View](https://github.com/Akash1070/Covid-19-Dasboard-for-Berlin-City/blob/main/Preview.png)
 ## 🚀 About Me
 
 Data Scientist Enthusiast | Petroleum Engineer Graduate | Solving Problems Using Data 
@@ -78,9 +63,6 @@ Data Scientist Enthusiast | Petroleum Engineer Graduate | Solving Problems Using
 🧠 I’m currently learning Data Scientist | Data Analytics | Business Analytics
 
 👯‍♀️ I’m looking to collaborate on Ideas & Data
-
-
-
 
 ## 🛠 Skills
 1. Data Scientist
