@@ -1,9 +1,5 @@
+
 ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg)
-![HTML 4.01](https://img.shields.io/badge/HTML-4.01-skyblue.svg)
-![CSS3](https://img.shields.io/badge/CSS3-pink.svg)
-![sklearn](https://img.shields.io/badge/Library-sklearn-orange.svg)
-![Numpy](https://img.shields.io/badge/Library-Numpy-blue.svg)
-![flask](https://img.shields.io/badge/Library-flask-white.svg)
 ![pyforest](https://img.shields.io/badge/Library-pyforest-red.svg)
 
 • This repository consists of files required to deploy a ___Machine Learning Web App___ created with ___Flask___ on ___Heroku___ platform.
