@@ -4,7 +4,7 @@
 ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg)
 ![pyforest](https://img.shields.io/badge/Library-pyforest-red.svg)
 
-• deployinf a ___Machine Learning Model___ created with ___Python___ 
+• deploying a ___Machine Learning Model___ created with ___Python___ 
 
 • Please do ⭐ the repository, if it helped you in anyway.
 
